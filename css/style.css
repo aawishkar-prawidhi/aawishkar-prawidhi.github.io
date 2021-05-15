@@ -139,21 +139,16 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(89, 115, 148, 0.5);
+	background-color: rgba(89, 115, 148, 0.2);
 	content: "";
-
 }
 .banner-caption {
 	position:absolute;
 	top: 60%;
 	width: 100%;
 	z-index: 2;
-}
-.padding-top30{
-	text-align:justify;
-}
-.bannercaption h1{
-	text-align:center;
+	text-align:left;
+	
 }
 .subfooter {
 	background-color: #DA095F;
