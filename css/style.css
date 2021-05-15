@@ -17,7 +17,7 @@ body {
 body {
 	font-size: 15px;
 	line-height: 1.50;
-	color: #333333;
+	color: rgb(36, 42, 116);
 	background-color: #ffffff;
 	position: relative;
 }
@@ -112,7 +112,7 @@ blockquote {
 ----------------------------------------------------------------------------- */
 .header {
 	color: #ffffff;
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(36, 42, 116,0.15);
 	
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -898,4 +898,8 @@ border-radius: 50%;
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+/*added by my self*/
+.media-heading{
+color:rgb(230, 125, 5);
 }
