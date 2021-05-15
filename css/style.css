@@ -112,8 +112,8 @@ blockquote {
 ----------------------------------------------------------------------------- */
 .header {
 	color: #ffffff;
-	background-color: rgba(0, 0, 0, 1);
-	padding: 10px 0;
+	background-color: rgb(89, 115, 148);
+	
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -125,9 +125,10 @@ blockquote {
 	height: 100%;
 	min-height: 100%;
 	position: relative;
-	color: rgb(36, 57, 114);
+	color: rgb(201, 201, 201);
 }
 .banner-image {
+	
 	vertical-align: middle;
 	min-height: 100%;
 	width: 100%;
@@ -138,12 +139,12 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(74, 4, 38, 0.53);
+	background-color: rgba(89, 115, 148, 0.3);
 	content: "";
 }
 .banner-caption {
-	position: absolute;
-	top: 50%;
+	position:absolute;
+	top: 60%;
 	width: 100%;
 	z-index: 2;
 }
@@ -246,7 +247,7 @@ border:0px;
 .bg-image-2 {
 }
 .caption-data {position: absolute; top: 50%; left: 50%; z-index: 20; text-align: center; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); transform: translate(-50%,-50%);}
-.caption-data h1 {text-transform: uppercase;}
+.caption-data h1 {text-transform: Capitalize;}
 .caption-data h1 span {font-size: inherit; line-height: inherit; font-weight: inherit;}
 .caption-data h3{line-height:34px;}
 button.cta-button.btn-light, button.cta-button.btn-dark, .contact-form button.cta-button, button.cta-button.btn-default {
@@ -697,26 +698,27 @@ padding: 10px 0;
 ---------------------------------- */
 .logo {
 	width:5vw;
-	height: 5vw;
+	height: 5vh;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	margin:2px;
 }
-.logo,
-.logo-section {
-	float: left;
-}
+
+	
 .brand {
-	font-size: 20px;
+	font-size: 25px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	padding: 5px 0;
-	float:left;
+	color:white;
+	transform:translate(80px,-30px);
+
+	
 }
 .brand a {
 	color: #ffffff;
