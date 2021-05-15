@@ -125,7 +125,7 @@ blockquote {
 	height: 100%;
 	min-height: 100%;
 	position: relative;
-	color: #fff;
+	color: rgb(36, 57, 114);
 }
 .banner-image {
 	vertical-align: middle;
@@ -316,7 +316,7 @@ padding: 70px 0;
 	color: #ffffff;
 }
 .banner-caption h1 {
-	font-size: 60px;
+	font-size: 40px;
 }
 .footer h1{
 color:#fff;
@@ -669,7 +669,7 @@ padding: 10px 0;
 	padding: 5px 0;
 }
 .fixed-header-on .brand {
-	font-size: 24px;
+	font-size: 15px;
 }
 .fixed-header-on .logo {
 	-webkit-transform: scale(0.8);
@@ -696,7 +696,8 @@ padding: 10px 0;
 /* Logo, Site Name, Site Slogan
 ---------------------------------- */
 .logo {
-	margin: 10px 0px 10px 0;
+	width:5vw;
+	height: 5vw;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -708,13 +709,14 @@ padding: 10px 0;
 	float: left;
 }
 .brand {
-	font-size: 38px;
+	font-size: 20px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	padding: 10px 0;
+	padding: 5px 0;
+	float:left;
 }
 .brand a {
 	color: #ffffff;
