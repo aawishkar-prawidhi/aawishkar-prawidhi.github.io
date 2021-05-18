@@ -941,9 +941,6 @@ color:white;
 	}
 	to{
 		background-color:rgb(230, 125, 5);
-		transform:scale(1.1);
+		transform:scale(1.05);
 	}
-}
-.nav navbar-nav navbar-right{
-
 }
