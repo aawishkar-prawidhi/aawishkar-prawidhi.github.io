@@ -930,9 +930,11 @@ color:rgb(230, 125, 5);
 }
 .under_construction{
 animation-name:underconstruction;
-animation-duration:5s;
-animation-iteration-count: infinite;
+animation-duration:3s;
+animation-iteration-count:infinite;
 color:white;
+animation-timing-function:ease-in-out;
+animation-direction: alternate;
 }
 @keyframes underconstruction{
 	from {
@@ -941,6 +943,6 @@ color:white;
 	}
 	to{
 		background-color:rgb(230, 125, 5);
-		transform:scale(1.05);
+		transform:scale(0.99);
 	}
 }
