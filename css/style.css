@@ -903,3 +903,22 @@ border-radius: 50%;
 .media-heading{
 color:rgb(230, 125, 5);
 }
+#nodisplay{
+	display:none;
+}
+.under_construction{
+animation-name:underconstruction;
+animation-duration:5s;
+animation-iteration-count: infinite;
+color:white;
+}
+@keyframes underconstruction{
+	from {
+		background-color:rgb(155, 31, 31);
+		transform:scale(0.75);
+	}
+	to{
+		background-color:rgb(230, 125, 5);
+		transform:scale(1.1);
+	}
+}
